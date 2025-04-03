@@ -4,3 +4,15 @@ const isEven = a => {
     }
     return false
 }
+
+function comput(callback) {
+    let sol = callback(8)
+    console.log(sol);
+    
+}
+
+comput(isEven)
+
+
+
+
